@@ -1,0 +1,9 @@
+{
+  "name": "luxury-prefab-homes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"require('fs').accessSync('index.html'); require('fs').accessSync('src/styles.css'); console.log('Static site ready')\"",
+    "dev": "python3 -m http.server 4173"
+  }
+}

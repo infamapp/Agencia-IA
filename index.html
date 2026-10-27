@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Casa Áurea diseña casas prefabricadas de lujo, sostenibles y listas para instalar en ubicaciones exclusivas." />
+    <title>Casa Áurea | Casas prefabricadas de alto nivel</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="brand" href="#inicio">Casa Áurea</a>
+        <div class="nav-links">
+          <a href="#coleccion">Colección</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+
+      <section id="inicio" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Casas prefabricadas de alto nivel</p>
+          <h1>Viviendas modulares de lujo, listas para vivir sin renunciar a la arquitectura.</h1>
+          <p class="hero-text">Diseñamos, fabricamos e instalamos residencias premium con renders propios, acabados de alto standing y una experiencia completamente llave en mano.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#coleccion">Ver modelos <span aria-hidden="true">→</span></a>
+            <a class="button secondary" href="#contacto">Solicitar propuesta</a>
+          </div>
+          <div class="metrics" aria-label="Indicadores de calidad">
+            <span><strong>45%</strong> menos plazo de obra</span>
+            <span><strong>A+</strong> eficiencia energética</span>
+            <span><strong>24/7</strong> hogar conectado</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="/public/images/villa-alba.svg" alt="Render de Villa Alba, casa prefabricada de lujo con piscina" />
+          <div class="floating-badge">≈ Proyecto frente al mar disponible</div>
+        </div>
+      </section>
+
+      <section class="pillars" aria-label="Ventajas">
+        <article class="pillar"><span class="icon">✦</span><h2>Diseño de autor</h2><p>Arquitectura modular exclusiva, interiores a medida y materiales nobles seleccionados para cada parcela.</p></article>
+        <article class="pillar"><span class="icon">⏱</span><h2>Plazos cerrados</h2><p>Industrialización premium para acortar obra, controlar costes y entregar una vivienda lista para habitar.</p></article>
+        <article class="pillar"><span class="icon">♧</span><h2>Lujo sostenible</h2><p>Envolventes de alto rendimiento, energía solar integrada y sistemas inteligentes de climatización.</p></article>
+        <article class="pillar"><span class="icon">✓</span><h2>Gestión llave en mano</h2><p>Nos ocupamos de proyecto, licencias, fabricación, transporte, montaje, paisajismo y postventa.</p></article>
+      </section>
+
+      <section id="coleccion" class="section collection">
+        <div class="section-heading">
+          <p class="eyebrow">Colección privada</p>
+          <h2>Modelos con imágenes ya diseñadas y preparados para publicar.</h2>
+          <p>Escoge una base arquitectónica y personalízala con nuestro equipo de interiorismo, paisajismo y eficiencia energética.</p>
+        </div>
+        <div class="home-grid">
+          <article class="home-card"><img src="/public/images/villa-alba.svg" alt="Render diseñado de Villa Alba" /><div class="home-content"><p>Mediterráneo contemporáneo</p><h3>Villa Alba</h3><strong>Desde 890.000 €</strong><ul><li>✓ 310 m²</li><li>✓ 4 suites</li><li>✓ Piscina infinity</li><li>✓ Entrega 7 meses</li></ul></div></article>
+          <article class="home-card"><img src="/public/images/villa-nordica.svg" alt="Render diseñado de Villa Nórdica" /><div class="home-content"><p>Montaña y bosque premium</p><h3>Villa Nórdica</h3><strong>Desde 760.000 €</strong><ul><li>✓ 280 m²</li><li>✓ 3 suites</li><li>✓ Fachada termo-madera</li><li>✓ Passivhaus ready</li></ul></div></article>
+          <article class="home-card"><img src="/public/images/villa-marina.svg" alt="Render diseñado de Villa Marina" /><div class="home-content"><p>Costa privada modular</p><h3>Villa Marina</h3><strong>Desde 1.120.000 €</strong><ul><li>✓ 360 m²</li><li>✓ 5 suites</li><li>✓ Terraza panorámica</li><li>✓ Domótica total</li></ul></div></article>
+        </div>
+      </section>
+
+      <section id="proceso" class="section process">
+        <div class="section-heading compact"><p class="eyebrow">Método Casa Áurea</p><h2>De parcela a vivienda en cuatro fases.</h2></div>
+        <div class="steps">
+          <div class="step"><span>01</span><p>Estudio urbanístico y anteproyecto</p></div>
+          <div class="step"><span>02</span><p>Diseño 3D, presupuesto cerrado y licencias</p></div>
+          <div class="step"><span>03</span><p>Fabricación industrial con control de calidad</p></div>
+          <div class="step"><span>04</span><p>Transporte, montaje, interiores y entrega</p></div>
+        </div>
+      </section>
+
+      <section id="contacto" class="cta">
+        <div><p class="eyebrow">Agenda privada</p><h2>Recibe una propuesta para tu parcela o inversión.</h2><p>Cuéntanos ubicación, metros deseados y estilo. Te responderemos con una primera estimación y selección de modelos.</p></div>
+        <form class="contact-form"><input name="nombre" aria-label="Nombre" placeholder="Nombre" required /><input name="email" aria-label="Email" placeholder="Email" type="email" required /><select name="modelo" aria-label="Modelo de interés" required><option value="" selected disabled>Modelo de interés</option><option>Villa Alba</option><option>Villa Nórdica</option><option>Villa Marina</option></select><textarea name="mensaje" aria-label="Mensaje" placeholder="Háblanos de tu parcela, estilo y presupuesto" rows="4"></textarea><button type="submit">Enviar solicitud</button></form>
+      </section>
+    </main>
+  </body>
+</html>
